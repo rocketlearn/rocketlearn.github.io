@@ -28,7 +28,7 @@ twitter_username: v_plus_plus
 github_username:  rocketlearn
 
 # Build settings
-theme: jekyll-theme-architect
+theme: minima
 plugins:
   - jekyll-feed
 
