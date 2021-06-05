@@ -1,6 +1,6 @@
 layout: page
 title: "Rocketlearn Online!"
-permalink: /blog/rocketlearn
+permalink: /blog/rocketlearn/
 
 ## This is my first page 
 
