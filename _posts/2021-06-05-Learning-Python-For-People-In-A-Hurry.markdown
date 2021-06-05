@@ -1,7 +1,8 @@
 ---
 layout: post
-title:  "Learning Python for Pepole in a Hurry!"
+title:  "Learning Python for People in a Hurry!"
 date:   2021-06-05 16:57:27 +0530
+permalink: /blog/python/python-for-people-in-a-hurry-1
 categories: python
 ---
 ## I know you're in a rush to learn but...
@@ -17,5 +18,5 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
 
