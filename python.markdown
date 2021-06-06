@@ -2,6 +2,7 @@
 layout: page
 title: Python
 permalink: /blog/python/
+weight : 1
 ---
 
 ### Mastering Python for People in a Rush

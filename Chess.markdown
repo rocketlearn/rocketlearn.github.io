@@ -2,6 +2,7 @@
 layout: page
 title: Chess
 permalink: /blog/chess/
+weight: 2
 ---
 
 ### Steinitz vs Paulsen
