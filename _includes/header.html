@@ -1,14 +1,14 @@
-<header class="site-header" role="banner">
+<header >
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="padding-bottom:0;margin-bottom:0;padding-top:0">
   <a class="navbar-brand" href="/">
-   <img src="/assets/brand/rocketlearn_logo_1.png" width="60" height="60" alt="Rocketlearn">RocketLearn
+   <img src="/assets/brand/rocketlearn_logo_1.png" width="30" height="30" alt="Rocketlearn">RocketLearn
   </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-bottom:0;">
+    <div class="navbar-nav" style="margin-bottom:0;">
     
        {%- assign default_paths = site.pages| sort:"weight"  | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -27,7 +27,7 @@
               id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
             {%endif%}
             -->
-            <a class="nav-item nav-link {% if my_page.url== page.url %} active {% endif %} " 
+            <a class="nav-item nav-link {% if my_page.category== page.category %} active panel-body bg-info font-weight-bold {% endif %} " style="margin-bottom:0;"
             
              href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }} {{my_posts.title}} </a>
             <!--

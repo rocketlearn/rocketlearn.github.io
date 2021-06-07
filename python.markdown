@@ -2,9 +2,10 @@
 layout: page
 title: Python
 permalink: /python/
+category: Python
 weight : 1
 ---
-{% assign pagelist = site.posts|where: 'category','Python' %}
+{% assign pagelist = site.posts|where: 'category',page.category %}
 {%- if pagelist.size > 0 -%}
     <div>
     <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>

@@ -1,11 +1,12 @@
 ---
 layout: page
-title: About
+title: About Us
 permalink: /about/
 weight: 10000
+category: about
 ---
 
-# Mission
+### Mission
 
 We're committed to delivering make learning to code accessible to everyone. We want to build a consious planet bringing down barriers in learning to code.
 
