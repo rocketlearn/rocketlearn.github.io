@@ -1,31 +1,28 @@
 ---
 layout: page
 title: Python
-permalink: /blog/python/
+permalink: /python/
 weight : 1
 ---
-
-### Mastering Python for People in a Rush
-
-
-#### Lists in Python
-{% highlight python %}
-
-mylist=[1,2,3,4]
-
-#concatenation
-mylist = mylist + [4,5,6]
-{% endhighlight %}
-
-#### Dictionaries in Python
-{% highlight python %}
-
-mydict={'a':1,'b':2}
-
-#addition to dictionary
-mydict.update({'c':3})
-{% endhighlight %}
-
-If you like this, continue reading more with the [next chapter]
-
-[next chapter]: python-for-people-in-a-hurry-1
+{% assign pagelist = site.posts|where: 'category','Python' %}
+{%- if pagelist.size > 0 -%}
+    <div>
+    <h2 class="post-list-heading">{{ page.list_title | default: "" }}</h2>
+    <ul class="post-list">
+      {%- for post in pagelist -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+    </div>
+{% endif%}

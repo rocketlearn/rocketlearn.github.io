@@ -2,7 +2,7 @@
 layout: post
 title:  "Learning Python for People in a Hurry!"
 date:   2021-06-05 16:57:27 +0530
-permalink: /blog/python/python-for-people-in-a-hurry-1
+permalink: /python/python-for-people-in-a-hurry-1
 categories: Python
 category: Python
 weight : 1
