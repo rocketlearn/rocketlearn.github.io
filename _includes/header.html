@@ -7,8 +7,8 @@
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="margin-bottom:0;">
-    <div class="navbar-nav" style="margin-bottom:0;">
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup" >
+    <div class="navbar-nav" >
     
        {%- assign default_paths = site.pages| sort:"weight"  | map: "path" -%}
       {%- assign page_paths = site.header_pages | default: default_paths -%}
@@ -27,7 +27,7 @@
               id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
             {%endif%}
             -->
-            <a class="nav-item nav-link {% if my_page.category== page.category %} active panel-body bg-info font-weight-bold {% endif %} " style="margin-bottom:0;"
+            <a class="nav-item nav-link {% if my_page.category== page.category %} active bg-info font-weight-bold {% endif %} " style="{% if my_page.category== page.category %} font-weight:bold; {% endif %} padding:10px"
             
              href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }} {{my_posts.title}} </a>
             <!--
