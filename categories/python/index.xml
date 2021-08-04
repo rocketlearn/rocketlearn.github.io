@@ -1,0 +1,26 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>python - Category - RocketLearn Blogs</title>
+        <link>https://rocketlearn.github.io/categories/python/</link>
+        <description>python - Category - RocketLearn Blogs</description>
+        <generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 01 Aug 2021 15:45:44 &#43;0530</lastBuildDate><atom:link href="https://rocketlearn.github.io/categories/python/" rel="self" type="application/rss+xml" /><item>
+    <title>Let&#39;s learn Python</title>
+    <link>https://rocketlearn.github.io/python-basics/</link>
+    <pubDate>Sun, 01 Aug 2021 15:45:44 &#43;0530</pubDate><guid>https://rocketlearn.github.io/python-basics/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/python.png" referrerpolicy="no-referrer">
+            </div>Python beginnings! Welcome! Are you completely new to programming? If not then we presume you will be looking for information about why and how to get started with Python. Fortunately an experienced programmer in any programming language (whatever it may be) can pick up Python very quickly. It&rsquo;s also easy for beginners to use and learn, so jump in! Installing
+ Installing  Python is generally easy, and nowadays many Linux and UNIX distributions include a recent Python.]]></description>
+</item>
+<item>
+    <title>First post about Python</title>
+    <link>https://rocketlearn.github.io/lift-off-in-python/</link>
+    <pubDate>Sun, 01 Aug 2021 15:42:42 &#43;0530</pubDate><guid>https://rocketlearn.github.io/lift-off-in-python/</guid>
+    <description><![CDATA[<div class="featured-image">
+                <img src="/feature_image.png" referrerpolicy="no-referrer">
+            </div>Hugo Theme LoveItHugo Theme LoveIt
+" Hugo Theme LoveIt 
+This is my first post 1 2 3  var = True if var: print(&#34;Hello, World!&#34;)   ]]></description>
+</item>
+</channel>
+</rss>
